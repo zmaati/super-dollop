@@ -15,7 +15,7 @@ function App() {
           </div>
           <p>
             Moja pierwsza bardziej poważna strona w 
-            <span>React</span>
+            <span>React.</span>
           </p>
     </div>
   );
