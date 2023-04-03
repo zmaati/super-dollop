@@ -1,0 +1,66 @@
+.apph1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    margin-top: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.whole p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    gap: 0.5rem;
+    margin-top: 1.8em;
+    /* background-color: black; */
+    padding-left: 2.6em;
+    padding-right: 2em;
+}
+
+.whole p span {
+    display: flex;
+    color: rgb(81, 155, 197);
+    /* font-size: 1.7em; */
+    font-weight: bold;
+    /* margin-top: -14px; */
+}
+
+.logocontainer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8em;
+    padding: 1.5em;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+    .apph1 {
+        margin-top: 2em;
+        font-size: 5em;
+    }
+    .logocontainer .logo {
+        height: 11em;
+    }
+
+    .whole p {
+        font-size: xx-large;
+    }
+}
+
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .logocontainer .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
